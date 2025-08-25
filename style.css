@@ -1,0 +1,300 @@
+body, html{
+    height: 100hv;
+    margin: 0;
+}
+.sidebar{
+    display: flex;
+    flex-direction: column;
+    width: 450px;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    background-color: cadetblue;
+    gap: 35px;
+}
+
+.header{
+    position: absolute;
+    width: 170vh;
+    top: 0.35%;
+    left: 12%;
+    height: 15vh;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.project{
+    position: absolute;
+    left: 12%;
+    top: 15%;
+    height: 65vh;
+    width: 170vh;
+    background-color: whitesmoke;
+    display: grid;
+    resize: both;
+    overflow: auto;
+    gap: 60px;
+    padding: 200px;
+    border: sandybrown;
+    grid-template-rows: repeat(3, 380px);
+    grid-template-columns: repeat(2, 860px);
+}
+.child{
+    background-color:white;
+    border-radius: 15px;
+    border-color: aquamarine;
+    font-family: sans-serif;
+    font-size: 1.5rem;
+    border-left: 15px solid wheat;
+    position: relative;
+}
+
+h2{
+    margin-left: 20px;
+    text-align: 20% left;
+    color: black;
+}
+.project h3{
+    margin-left: 20px;
+    color: grey;
+    width: 800px;
+}
+
+#button1{
+    position: absolute;
+    right: 20%;
+    top: 60%;
+    width: 150px;
+    height: 50px;
+    color: white;
+    font-size: large;
+    border-color: cadetblue;
+    border-radius: 35px;
+    background-color: cadetblue;
+}
+
+#button2{
+    position: absolute;
+    right: 13%;
+    top: 60%;
+    width: 150px;
+    height: 50px;
+    color: white;
+    font-size: large;
+    border-color: cadetblue;
+    border-radius: 35px;
+    background-color: cadetblue;
+}
+#button3{
+    position: absolute;
+    right: 6%;
+    top: 60%;
+    width: 150px;
+    height: 50px;
+    color: white;
+    font-size: large;
+    border-color: cadetblue;
+    border-radius: 35px;
+    background-color: cadetblue;
+}
+
+.icons{
+    display: grid;
+    font-size: large;
+    grid-template-columns: repeat(1,  1fr) repeat(1, 1fr) repeat(1, 1fr);
+    grid-template-rows: repeat(1, 1fr) repeat(6,  1fr) repeat(2,  1fr);
+    width: 60px;
+    height: 50px;
+    text-align: center;
+}
+
+.icons p{
+    margin: 62px auto 34px;
+    position: absolute;
+    font-size: 1rem;
+    color: white;
+    font-weight: 600;
+    left: 4%;
+    gap: 10px;
+    font-size: xx-large;  
+}
+.icons img{
+    margin:52px auto 24px;
+    position: absolute;
+    left: 1%;
+    width: 50px;
+    height: 60px;
+}
+.sidebar > .icons:first-child{
+    margin-bottom: 80px;
+}
+
+.sidebar > .icons:nth-last-child(3){
+    margin-top: 70px;
+}
+
+.project img{
+    position: relative;
+    top: 1%;
+    left: 60%;
+    width: 90px;
+    height: 50px;
+    margin: 62px auto 24px;
+    align-items: center;
+}
+.cards{
+    position: absolute;
+    left: 65%;
+    top: 15%;
+    height: 67vh;
+    width: 55vh;
+    background-color: whitesmoke;
+    display: grid;
+    resize: both;
+    overflow: auto;
+    gap: 96px;
+    padding: 200px;
+    grid-template-rows: repeat(2, 580px);
+    grid-template-columns: repeat(1, 660px);
+}
+
+.children{
+    background-color:white;
+    border-radius: 15px;
+    border-color: aquamarine;
+    font-family: sans-serif;
+    font-size: 1.5rem;
+    position: relative;
+}
+
+.cards h1{
+    position: absolute;
+    top: -15%;
+}
+
+.project h1{
+    position: absolute;
+    top: -26%;
+    left: -2%;
+}
+
+.cards h3{
+    position: absolute;
+    left: 5%;
+}
+.cards h2{
+    display: grid;
+    position: relative;
+    grid-template-columns: repeat(1,100px);
+    grid-template-rows: repeat(2,1px);
+}
+.cards p{
+    display: grid;
+    position: relative;
+    padding-left: 5%;
+    top: 11%;
+    grid-template-columns: repeat(1, 550px);
+    grid-template-rows: repeat(3,40px);
+}
+
+
+.cards img{
+    position: relative;
+    display: grid;
+    width: 50px;
+    top: 8%;
+    padding-left: 10%;
+    grid-template-columns: repeat(1, 10px);
+    grid-template-rows: repeat(4,30px);
+}
+
+.cards h4{
+    display: grid;
+    position: relative;
+    padding-left: 25%;
+    top: -7%;
+    grid-template-columns: repeat(1, 250px);
+    grid-template-rows: repeat(4, 0px);
+}
+
+.cards h5{
+    display: grid;
+    position: relative;
+    padding-left: 25%;
+    top: -7%;
+    grid-template-columns: repeat(1, 250px);
+    grid-template-rows: repeat(4, 0px);
+}
+
+#morgan-icon{
+    position: absolute;
+    width: 100px;
+    top: 55%;
+    left: 3%;
+}
+
+.header-child{
+    display: grid;
+}
+
+.header-child h2{
+    position: absolute;
+    width: 500px;
+    left: 7%;
+    top: 50%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.header-child h1{
+    position: absolute;
+    width: 5000px;
+    left: 7.6%;
+    top: 60%;
+    font-size: 40px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.search{
+    position: absolute;
+    top: 2%;
+    left: 5%;
+}
+.search img{
+    width: 50px;
+}
+
+.search input{
+    position: absolute;
+    width: 1200px;
+    height: 45px;
+    top: 10%;
+    left: 115%;
+    border-radius: 30px;
+    border-color: white;
+    background-color: grey;
+}
+
+.profile img{
+    position: absolute;
+    top: 8%;
+    right: 15%;
+    width: 70px;
+}
+
+.profile h2{
+    position: absolute;
+    justify-content: flex-end;
+    top: 6%;
+    right: 5%;
+    width: 400px;
+    max-width: 219px;
+    font-size: 30px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    word-wrap: break-word;
+}
+#notification{
+    position: absolute;
+    top: 13%;
+    right: 20%;
+    width: 40px;
+}
